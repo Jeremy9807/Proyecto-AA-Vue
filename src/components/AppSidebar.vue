@@ -6,7 +6,10 @@
         <router-link to="/lista-tareas">Lista de tareas</router-link>
       </li>
       <li>
-        <router-link to="/header">Header</router-link>
+        <router-link to="/contador">Contador</router-link>
+      </li>
+      <li>
+        <router-link to="/registro">Registro</router-link>
       </li>
     </ul>
   </div>
