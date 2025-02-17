@@ -1,15 +1,11 @@
 <template>
-  <Header />
-  <listaTareas />
+  <mainView></mainView>
 </template>
 
 <script setup>
-  
-  import Header from './components/Header.vue';
-  import listaTareas from './components/listaTareas.vue';
+
+import MainView from "./views/MainView.vue";
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
