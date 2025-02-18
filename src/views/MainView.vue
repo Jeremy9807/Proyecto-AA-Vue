@@ -14,6 +14,7 @@ import Sidebar from "../components/AppSidebar.vue";
 <style>
 .container {
   display: flex;
+  padding-top: 65px;
 }
 
 .contenido {
