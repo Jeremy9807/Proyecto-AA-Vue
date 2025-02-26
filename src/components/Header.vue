@@ -5,8 +5,7 @@
     <div class="pre-header"></div>
 
     <div class="header">
-      <h3>Temperatura actual: <Weather></Weather>
-      </h3>
+      <Weather />
     </div>
   </div>
 

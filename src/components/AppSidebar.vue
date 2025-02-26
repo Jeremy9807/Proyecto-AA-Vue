@@ -1,6 +1,7 @@
 <template>
   <div class="app-sidebar">
     <h2>Bienvenido</h2>
+    <p>Tu mensaje: {{ mensajeRecibido }}</p>
     <h3>
       {{ registroStore.nombre }}
     </h3>
@@ -24,6 +25,14 @@
 <script setup>
 
 import { useRegistroStore } from '@/modules/registro/stores/registroStore';
+import { defineProps, ref, watch } from "vue";
+
+const props = defineProps(['mensaje']);
+const mensajeRecibido = ref(props.mensaje);
+
+watch(() => props.mensaje, (newValue) => {
+  mensajeRecibido.value = newValue;
+});
 
 const registroStore = useRegistroStore();
 
