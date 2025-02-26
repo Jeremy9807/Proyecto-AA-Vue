@@ -22,6 +22,11 @@ const router = createRouter({
       path: '/registro',
       name: 'Registro',
       component: () => import('../modules/registro/views/RegistroView.vue'),
+     },
+     {
+      path: '/propiedades-computadas',
+      name: 'PropiedadesComputadas',
+      component: () => import('../modules/calcular/views/CalcularView.vue'),
      }
   ],
 })

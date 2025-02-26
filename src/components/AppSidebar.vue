@@ -18,6 +18,9 @@
       <li>
         <router-link to="/registro">Registro</router-link>
       </li>
+      <li>
+        <router-link to="/propiedades-computadas">Calcular</router-link>
+      </li>
     </ul>
   </div>
 </template>
